@@ -60,9 +60,9 @@ namespace SeleniumCsharp
             driver.Navigate().GoToUrl("https://CroweLLPUser:Cr0w3Sitecore!!@cm-devx.crowe.com/sitecore");
 
             var uName = driver.FindElement(By.Id("Username"));
-            uName.SendKeys("GhanSingh");
+            uName.SendKeys("<yourusername>");
             var password = driver.FindElement(By.Id("Password"));
-            password.SendKeys("gSingh2020!!");
+            password.SendKeys("<yourpassword>");
 
             var loginButton = driver.FindElement(By.Name("button"));
             loginButton.Click();
@@ -82,9 +82,9 @@ namespace SeleniumCsharp
             driver.Navigate().GoToUrl("https://CroweLLPUser:Cr0w3Sitecore!!@cm-devx.crowe.com/sitecore");
 
             var uName = driver.FindElement(By.Id("Username"));
-            uName.SendKeys("GhanSingh");
+            uName.SendKeys("<yourusername>");
             var password = driver.FindElement(By.Id("Password"));
-            password.SendKeys("gSingh2020");
+            password.SendKeys("<incorrectpassword>");
 
             var loginButton = driver.FindElement(By.Name("button"));
             loginButton.Click();
