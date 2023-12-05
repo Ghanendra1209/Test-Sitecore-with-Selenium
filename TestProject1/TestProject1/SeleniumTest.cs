@@ -57,7 +57,7 @@ namespace SeleniumCsharp
 
         {
 
-            driver.Navigate().GoToUrl("https://CroweLLPUser:Cr0w3Sitecore!!@cm-devx.crowe.com/sitecore");
+            driver.Navigate().GoToUrl("https://<your sitecore instance url>/sitecore");
 
             var uName = driver.FindElement(By.Id("Username"));
             uName.SendKeys("<yourusername>");
@@ -79,7 +79,7 @@ namespace SeleniumCsharp
 
         {
 
-            driver.Navigate().GoToUrl("https://CroweLLPUser:Cr0w3Sitecore!!@cm-devx.crowe.com/sitecore");
+            driver.Navigate().GoToUrl("https://<your sitecore instance url>/sitecore");
 
             var uName = driver.FindElement(By.Id("Username"));
             uName.SendKeys("<yourusername>");
